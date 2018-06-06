@@ -1,0 +1,143 @@
+/*Taille fixée sur le contenu*/
+*{
+    box-sizing: border-box;
+}
+
+/*Affiche le contenu de manière centrée de la div avec l'id container*/
+#container
+{
+    text-align: center;
+}
+/*Définition de la taille du jeu*/
+#main
+{
+    width: 700px;
+    margin: auto;
+}
+/*Définition du style de chaque carte*/
+.carte
+{
+    border : solid 3px #336;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    /*Affiche les cartes les unes à côté des autres*/
+    display : inline-block;
+    background-image : url(../image/cartes.png);
+}
+/*Créé un style lorsque l'on passe sur la carte avec la souris*/
+.carte:hover{
+    box-shadow : 0px 0px 3px 1px #888;
+}
+/*Style permettant de cacher les cartes*/
+.cachee
+{
+    background-color : #aaa;
+    background-image : none;
+    border-color : #666;
+}
+/*Définition de la structure le la barre de progression*/
+#progressBar{
+    border : solid 1px #666;
+    width : 760px;
+    /*Rogne le contenu de trop dans la barre de progression*/
+    overflow : hidden;
+    margin-left : 5px;
+    margin-top : 5px;
+    /*Arrondi de la barre de progression*/
+    border-radius : 5px;
+    margin: auto;
+}
+/*Définition du contenu de la barre de progression*/
+#fill{
+    background-color : #7FDD4C;
+    height : 10px;
+    width : 0%;
+    /*Fluidifie le chargement de la barre de progression*/
+    transition : all 1s linear;
+}
+/*Style pour les éléments définissant 'scores' dans l'attribut class*/
+.scores
+{
+    width : 760px;
+    margin-top: 100px;
+    border: 1px solid grey;
+    background-color:#9E9E9E;
+    text-align:center;
+    font-size:20pt;
+    padding:1%;
+    /*Centrage horizontal*/
+    margin-left: auto;
+    margin-right: auto;
+}
+/*Récupère une image parmi toutes les images*/
+.fruit1{
+    background-position:0 0px;
+}
+
+.fruit2{
+    background-position:0 -100px;
+}
+
+.fruit3{
+    background-position:0 -200px;
+}
+
+.fruit4{
+    background-position:0 -300px;
+}
+
+.fruit5{
+    background-position:0 -400px;
+}
+
+.fruit6{
+    background-position:0 -500px;
+}
+
+.fruit7{
+    background-position:0 -600px;
+}
+
+.fruit8{
+    background-position:0 -700px;
+}
+
+.fruit9{
+    background-position:0 -800px;
+}
+.fruit10{
+    background-position:0 -900px;
+}
+
+.fruit11{
+    background-position:0 -1000px;
+}
+
+.fruit12{
+    background-position:0 -1100px;
+}
+
+.fruit13{
+    background-position:0 -1200px;
+}
+
+.fruit14{
+    background-position:0 -1300px;
+}
+
+.fruit15{
+    background-position:0 -1400px;
+}
+
+.fruit16{
+    background-position:0 -1500px;
+}
+
+.fruit17{
+    background-position:0 -1600px;
+}
+
+.fruit18{
+    background-position:0 -1700px;
+}
